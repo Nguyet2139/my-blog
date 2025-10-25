@@ -1,0 +1,59 @@
+baseURL = 'http://localhost:1313/Huynh-Thi-Thu-Nguyet/'
+languageCode = 'vi'
+title = 'My Programming Blog'
+theme = 'PaperMod'
+
+[params]
+env = 'development'
+description = 'Blog lập trình cá nhân chia sẻ kiến thức về Java và JavaScript'
+author = 'Huỳnh Thị Thu Nguyệt'
+keywords = ['Java', 'JavaScript', 'Spring Boot', 'React', 'Node.js', 'Lập trình']
+images = ['/images/logo.png']
+disableSpecial1stPost = true
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = false
+search = true
+hideAuthor = true
+disableHome = false
+disableListPage = false
+paginate = 2
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+style = 'github'
+codeFences = true
+guessSyntax = true
+lineNos = true
+lineNumbersInTable = true
+noClasses = false
+
+minify = true
+disablePathToLower = false
+
+[build]
+writeStats = true
+useResourceCacheWhen = 'fallback'
+
+[pagination]
+pagesPerSection = 2
+
+[[menu.main]]
+name = '🏠 Trang chủ'
+url = '/'
+weight = 1
+
+[[menu.main]]
+name = '📝 Bài viết'
+url = '/posts/'
+weight = 2
+
+[[menu.main]]
+name = '👤 Giới thiệu'
+url = '/about/'
+weight = 3

@@ -1,0 +1,110 @@
+baseURL = 'https://nguyet2139.github.io/Huynh-Thi-Thu-Nguyet/'
+languageCode = 'vi'
+title = 'Huỳnh Thị Thu Nguyệt'
+theme = 'PaperMod'
+
+[params]
+  env = 'production'
+  title = 'Huỳnh Thị Thu Nguyệt'
+  description = 'Một blog về lập trình và công nghệ - Chia sẻ kiến thức, kinh nghiệm và tips hữu ích cho developers'
+  author = 'HUỲNH THỊ THU NGUYỆT'
+  keywords = ['programming', 'blog', 'tech', 'lập trình']
+  
+  # Theme settings
+  defaultTheme = 'auto'
+  disableThemeToggle = false
+  displayMode = 'wide'
+  disableSpecial1stPost = true
+  disableHome = false
+  disableListPage = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
+  search = true
+  
+  # Post settings
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  hideAuthor = true
+  
+  # Social links
+  socialIcons = [
+    { name = 'github', url = 'https://github.com/Nguyet2139/Huynh-Thi-Thu-Nguyet' },
+    { name = 'twitter', url = 'https://twitter.com/yourusername' },
+    { name = 'email', url = 'mailto:gbaxz2861@gmail.com' }
+  ]
+  
+  # Home page settings
+  # homeInfoParams = { Title = 'My Programming Blog', Content = 'Chào mừng đến với blog lập trình của tôi! Tôi chia sẻ về các chủ đề lập trình, công nghệ và kinh nghiệm học tập.' }
+  
+  # Performance
+  minify = true
+  disablePathToLower = false
+  
+  # Pagination
+  paginate = 2
+  
+  # Home page posts limit
+  homeInfoParams = { Title = '', Content = '' }
+  
+  # Analytics (uncomment and add your tracking ID)
+  # googleAnalytics = 'GA_TRACKING_ID'
+  
+  # Comments (uncomment to enable)
+  # [params.comments]
+  #   enabled = true
+  #   provider = 'disqus'
+  #   disqusShortname = 'your-disqus-shortname'
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = '🏠 Trang chủ'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'posts'
+    name = '📝 Bài viết'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'about'
+    name = '👋 Giới thiệu'
+    url = '/about/'
+    weight = 30
+
+[markup]
+  [markup.highlight]
+    style = 'github'
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    tabWidth = 2
+    wrap = true
+  
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Custom CSS
+[params.assets]
+  customCSS = ['css/custom.css']
+
+# Pagination settings
+[pagination]
+  pagesPerSection = 2
+
+# Build settings
+[build]
+  writeStats = true
+  useResourceCacheWhen = 'fallback'
