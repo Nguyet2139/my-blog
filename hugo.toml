@@ -1,12 +1,4 @@
-baseURL = 'https://nguyet2139.github.io/'
-languageCode = 'vi-vn'
-title = 'Blog Lập Trình của Huỳnh Nguyệt'
-theme = 'Gruvbox'
-
-paginate = 10
-enableRobotsTXT = true
-canonifyURLs = true
-
-[params]
-  author = "Huỳnh Nguyệt"
-  description = "Chia sẻ kiến thức lập trình, công nghệ và cuộc sống."
+baseURL = "https://nguyet2139.github.io/my-blog/"
+languageCode = "vi-vn"
+title = "Blog của Huỳnh Nguyệt"
+theme = "gruvbox"
