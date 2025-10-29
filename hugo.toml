@@ -1,4 +1,5 @@
-baseURL = 'https://nguyet2139.github.io/Huynh-Thi-Thu-Nguyet/'
+<<<<<<< HEAD
+baseURL = 'https://nguyet2139.github.io/Nguyet_HUGO/'
 languageCode = 'vi'
 title = 'Huỳnh Thị Thu Nguyệt'
 theme = 'PaperMod'
@@ -37,7 +38,7 @@ theme = 'PaperMod'
   
   # Social links
   socialIcons = [
-    { name = 'github', url = 'https://github.com/Nguyet2139/Huynh-Thi-Thu-Nguyet' },
+    { name = 'github', url = 'https://nguyet2139.github.io/Nguyet_HUGO/' },
     { name = 'twitter', url = 'https://twitter.com/yourusername' },
     { name = 'email', url = 'mailto:gbaxz2861@gmail.com' }
   ]
@@ -108,3 +109,9 @@ theme = 'PaperMod'
 [build]
   writeStats = true
   useResourceCacheWhen = 'fallback'
+=======
+baseURL = 'https://nguyet2139.github.io/Nguyet_HUGO/'
+languageCode = "vi-vn"
+title = "Blog của Huỳnh Nguyệt"
+theme = "gruvbox"
+>>>>>>> 9028dd5cbf33fb66b9d67e0a8da638b40046d0bd
